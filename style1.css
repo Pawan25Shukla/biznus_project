@@ -1,0 +1,416 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /* font-family: 'Roboto', sans-serif;  */
+}
+
+.parent {
+    height: 80px;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.parenthead {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.parentchild {
+    height: 40px;
+    width: 100%;
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.parentbutton {
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    background-color: #eb5757;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navparent {
+    height: 80px;
+    width: 100%;
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ec5858;
+}
+
+.navleft {
+    height: 40px;
+    width: 30%;
+    /* border: solid orangered; */
+    padding-left: 200px;
+}
+
+.navright {
+    height: 40px;
+    width: 50%;
+    /* border: solid violet; */
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+}
+
+.acmelogo {
+    height: 40px;
+    width: 100px;
+}
+
+.bucketlogo {
+    height: 30px;
+    width: 35px;
+    background-color: black;
+}
+
+.navorderlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainparent {
+    height: 400px;
+    width: 100%;
+    /* border: solid palevioletred; */
+    padding-top: 150px;
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("background.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    /* background-repeat: no-repeat; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.maindiv {
+    height: 550px;
+    width: 35%;
+    /* border: solid black; */
+    padding-left: 200px;
+}
+
+.mhead {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.mainpragparent {
+    height: 30px;
+    width: 75%;
+}
+
+.mainprag {
+    font-size: 20px;
+}
+
+.mainbutton {
+    height: 40px;
+    width: 30%;
+    color: white;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.parentdiv {
+    height: 80px;
+    width: 100%;
+    /* border: solid green; */
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parentleft {
+    height: 80px;
+    width: 50%;
+    border: solid blue;
+}
+
+.phead {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Sen, sans-serif;
+}
+
+.parentleftprag {
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.parentright {
+    height: 80px;
+    width: 50%;
+    border: solid red;
+}
+
+.parentrightprag {
+
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 502px;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    /* border: solid darkblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    height: 450px;
+    width: 350px;
+    /* border: solid red; */
+}
+
+.upbox {
+    height: 350px;
+    width: 100%;
+    /* border: solid royalblue; */
+    background-color: black;
+    color: white;
+}
+
+.upboxhead {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.upboxprag {
+    padding-top: 100px;
+    padding-left: 2px;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.lowerbox {
+    padding-top: 45px;
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.backgrounddiv {
+    height: 550px;
+    width: 100%;
+    /* border: solid navy; */
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url("image.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerdiv {
+    height: 450px;
+    width: 100%;
+    /* border: solid darkmagenta; */
+    text-align: right;
+    position: relative;
+    right: 160px;
+    top: 100px;
+    font-family: Sen, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.backgroundbutton {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.datediv {
+    height: 150px;
+    width: 100%;
+    /* border: solid firebrick; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerdatediv {
+    height: 80px;
+    width: 1200px;
+    /* border: solid olivedrab; */
+}
+
+.dateprag {
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.datehead {
+    font-family: Sen, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.imagedivparent {
+    height: auto;
+    width: 100%;
+    /* border: solid yellowgreen; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagediv {
+    height: 500px;
+    width: 350px;
+    /* border: solid blue; */
+}
+
+.image {
+    height: 400px;
+    width: 350px;
+}
+
+.container1 {
+    height: 550px;
+    width: 1200px;
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagehead {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Sen, sans-serif;
+    padding-top: 10px;
+}
+
+.buttonimage {
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    padding: 5px 25px;
+    border-color: #eb5757;
+    border-radius: 5px;
+    background-color: #eb5757;
+    color: white;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.viewallproducts {
+    height: 100px;
+    width: 100%;
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewitems {
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    padding: 5px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.shoplocal {
+    height: auto;
+    width: 100%;
+    border: solid darkred;
+    display: flex;
+    justify-content: center;
+}
+
+.innershoplocal {
+    height: 550px;
+    width: 550px;
+    border: solid gold;
+}
+
+.girlimage {
+    height: 440px;
+    width: 440px;
+}
+
+.shoplocalhead {
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: Sen, sans-serif;
+    text-align: center;
+}
+
+.shoplocalprag {
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.container2 {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}

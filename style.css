@@ -1,0 +1,466 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /* font-family: 'Roboto', sans-serif;  */
+}
+
+.parent {
+    height: 70px;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+.phead {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.parentdiv {
+    height: 40px;
+    width: 100%;
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.parentbutton {
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    background-color: #eb5757;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navparent {
+    height: 80px;
+    width: 100%;
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ec5858;
+}
+
+.navleftdiv {
+    height: 40px;
+    width: 30%;
+    /* border: solid orangered; */
+    padding-left: 200px;
+}
+
+.navrightdiv {
+    height: 40px;
+    width: 50%;
+    /* border: solid violet; */
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+}
+
+.acmelogo {
+    height: 40px;
+    width: 100px;
+}
+
+.bucketlogo {
+    height: 30px;
+    width: 35px;
+    background-color: black;
+}
+
+.navorder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainparent {
+    height: 400px;
+    width: 100%;
+    /* border: solid palevioletred; */
+    padding-top: 150px;
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("background.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    /* background-repeat: no-repeat; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.maindiv {
+    height: 550px;
+    width: 35%;
+    /* border: solid black; */
+    padding-left: 200px;
+}
+
+.mhead {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.mainpragparent {
+    height: 30px;
+    width: 75%;
+}
+
+.mainprag {
+    font-size: 20px;
+}
+
+.mainbutton {
+    height: 40px;
+    width: 30%;
+    color: white;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.divparent {
+    height: 80px;
+    width: 100%;
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.divleft {
+    height: 80px;
+    width: 50%;
+    /* border: solid blue; */
+    position: relative;
+    left: 200px;
+}
+
+.divhead {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Sen, sans-serif;
+}
+
+.divprag {
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.divright {
+    height: 80px;
+    width: 28%;
+    /* border: solid chocolate; */
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.divrightprag {
+
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 502px;
+}
+
+.threebox {
+    width: 100%;
+    /* border: solid blueviolet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid rgb(0, 255, 115);
+}
+
+.boxs {
+    height: 400px;
+    width: 350px;
+    border: solid red;
+}
+
+.innerbox1 {
+    /* border: solid saddlebrown; */
+    background-color: black;
+}
+
+.innerbox2 {
+    min-height: 350px;
+    min-width: 350px;
+    /* border: solid teal; */
+    background-color: black;
+}
+
+.innerbox3 {
+    min-height: 350px;
+    min-width: 350px;
+    /* border: solid goldenrod; */
+    background-color: black;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    color: white;
+    font-family: Sen, sans-serif;
+}
+
+.boxcenter {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 70px;
+    color: white;
+}
+
+.box1 {
+    width: 20%;
+    /* border: solid blue; */
+    padding-left: 30px;
+}
+
+.box2 {
+    width: 22%;
+    /* border: solid black; */
+    padding-left: 30px;
+}
+
+.box3 {
+    width: 20%;
+    /* border: solid green; */
+    padding-left: 30px;
+}
+
+.prag {
+    padding-top: 30px;
+}
+
+.container {
+    height: 550px;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url("image.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+}
+
+.rightcontainer {
+    height: 200px;
+    width: 45%;
+    border: solid rgb(11, 11, 11);
+    color: white;
+    font-family: Sen, sans-serif;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 550px;
+    padding-right: 200px;
+    padding-top: 30 px;
+}
+
+.containerhead {
+    position: relative;
+    top: 30px;
+    right: 50px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.containerbutton {
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.datediv {
+    height: 150px;
+    width: 100%;
+    /* border: solid navy; */
+    display: flex;
+    align-items: center;
+}
+
+.innerdatediv {
+    height: 100px;
+    width: 50%;
+    /* border: solid firebrick; */
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+.image3parent {
+    height: 450px;
+    width: 100%;
+    /* border: solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image1div {
+    height: 400px;
+    width: 400px;
+    /* border: solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image2div {
+    height: 400px;
+    width: 400px;
+    /* border: solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image3div {
+    height: 400px;
+    width: 400px;
+    /* border: solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    /* display: flex;
+            justify-content: space-between; */
+}
+
+.buttonimage {
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    color: white;
+    background-color: #eb5757;
+    border: solid#eb5757;
+}
+
+.viewallproducts {
+    height: 100px;
+    width: 100%;
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewitems {
+    height: 40px;
+    width: 170px;
+    color: white;
+    background-color: black;
+
+}
+
+.mainbelowdiv {
+    height: 700px;
+    width: 100%;
+    /* border: solid royalblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shopimage {
+    height: 500px;
+    width: 40%;
+    /* border: solid orangered; */
+    position: relative;
+    left: 200px;
+}
+
+.rightbelowmaindiv {
+    height: 650px;
+    width: 35%;
+    /* border: solid chocolate; */
+    background-color: black;
+    color: white;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.belowmainheading1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.belowmainheading2 {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.footerparent {
+    height: 100px;
+    width: 100%;
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.leftfooter {
+    height: 40px;
+    width: 20%;
+    /* border: solid tomato; */
+    padding-left: 200px;
+}
+
+.rightfooter {
+    height: 40px;
+    width: 15%;
+    /* border: solid hotpink; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.footerimage {
+    height: 30px;
+    width: 30px;
+}
+
+.belowfooter {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
